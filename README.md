@@ -12,31 +12,54 @@ The Express server uses [node-cmd](https://www.npmjs.com/package/node-cmd) to al
 
 These instructions will get you a copy of the project up and running on your local machine for development purposes.
 
-1. Clone the repository on your local machine
+Clone the repository on your local machine
 
 ```
 git clone https://github.com/tdshivendran/web_terminal.git
 ```
+### Running Server Version
 
-2. Install necessary dependencies for the app
+1. Install necessary dependencies for the app
 
 ```
 npm install
 ```
 
-3. Build the front end
+2. Build the front end
 
 ```
 npm run build
 ```
 
-4. Run the Express server
+3. Run the Express server
 
 ```
 node server.js
 ```
+
 The app is served at [http://localhost:3005/](http://localhost:3005).
+
+### Running Electron Version
+
+1. Install necessary dependencies for the app
+
+```
+npm install
+```
+
+2. Build the front end
+
+```
+npm run build
+```
+
+3. Run the Electron app
+```
+npm run electron
+```
+
+The app is also served at [http://localhost:3005/](http://localhost:3005).
 
 ## Authors
 
-Created by [Shivendran](https://tdshivendran.github.io/aboutme/).
+Created by [Shivendran](https://github.com/tdshivendran).
