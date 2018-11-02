@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3005/",
+  "main": "main.js",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "electron": "^3.0.7",
     "express": "^4.16.4",
     "node-cmd": "^3.0.0",
     "react": "^16.6.0",
